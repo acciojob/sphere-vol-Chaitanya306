@@ -6,7 +6,7 @@ function volume_sphere() {
 	  const radius=radiusElement/1
 	  if(radius===NaN || radius<0) 	ans=NaN
 	  else{
-		  ans=(4/3)*Math.PI*(r**3)
+		  ans=(4/3)*Math.PI*(radius**3)
 	  }
 	  volumeElement.textContent=ans		
 } 
