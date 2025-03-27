@@ -8,7 +8,7 @@ function volume_sphere() {
 	  else{
 		  ans=(4/3)*Math.PI*(radius**3)
 	  }
-	  volumeElement.textContent=ans		
+	  volumeElement.value=ans		
 } 
 
 window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
