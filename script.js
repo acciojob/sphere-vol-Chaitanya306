@@ -1,10 +1,10 @@
 function volume_sphere() {
     //Write your code here
 	  let ans=""
-	  const radiusElement=document.getElementById("radius").textConent;
+	  const radiusElement=document.getElementById("radius").value;
 	  const volumeElement=document.getElementById("volume");	
 	  const radius=radiusElement/1
-	  if(radius===NaN || radius<0) 	ans=NaN
+	  if(isNaN(radius) || radius<0) 	ans=NaN
 	  else{
 		  ans=(4/3)*Math.PI*(radius**3)
 		  ans=ans.toFixed(4)
