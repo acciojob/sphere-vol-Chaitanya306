@@ -7,6 +7,7 @@ function volume_sphere() {
 	  if(radius===NaN || radius<0) 	ans=NaN
 	  else{
 		  ans=(4/3)*Math.PI*(radius**3)
+		  ans=ans.toFixed(4)
 	  }
 	  volumeElement.value=ans		
 } 
